@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    color: white;
+    background-color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: large;
+}
+.gamecontainer{
+    margin-top: 50px;
+    
+    display: flex;
+    justify-content: center;
+}
+.container{
+   
+    display: grid;
+    grid-template-rows:repeat(3,10vw);
+    grid-template-columns:repeat(3,10vw);
+}
+.container div{
+    border: 2px solid black;
+}
+.boxtext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 5vw;
+    cursor: pointer;
+    background-size: contain;
+}
+.info{
+   
+    padding-left: 15px;
+    font-size: large;
+}
+.box:hover{
+    background-color: rgb(192, 143, 237);
+}
+.gameinfo h1{
+    padding: 0px 10px;
+}
+.reset{
+    margin: 0px 10px;
+}
+.wining img{
+    width: 0;
+    transition:width ease-in-out;
+   
+}
+
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+
+
+
+nav ul{
+    list-style-type: none;
+    /* //used to remove dot present in list */
+}
+
+#reset{
+    margin-left: 20px;
+    padding: 0px 10px;
+    color: red;
+    background-color: orange;
+    border-radius: 20px;
+    cursor: pointer;
+    font-style: oblique;
+}
+.heading{
+    margin-left: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
